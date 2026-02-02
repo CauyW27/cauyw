@@ -7,6 +7,6 @@ const status = document.getElementById("status");
 
 if (btn && status) {
   btn.addEventListener("click", () => {
-    status.textContent = "Button activated! You can replace this with your own feature.";
+    status.textContent = "Yeah you did it!";
   });
 }
