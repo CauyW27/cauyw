@@ -75,7 +75,9 @@ body {
   margin-top: 2rem;
 }
 
-/* Images responsive */
+.field { margin: 0.75rem 0; }
+label { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+input, textarea { width: 100%; max-width: 520px; padding: 0.5rem; }
 img {
   max-width: 100%;
   height: auto;
