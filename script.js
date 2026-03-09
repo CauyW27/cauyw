@@ -7,6 +7,6 @@ const status = document.getElementById("status");
 
 if (btn && status) {
   btn.addEventListener("click", () => {
-    status.textContent = "Yeah you did it!";
+    formMessage.textContent = `Well met, ${name}. Your message has been received by the Sovereign Order.`;
   });
 }
