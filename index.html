@@ -3,60 +3,112 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Site Title</title>
-  <meta name="description" content="A short description goes here describing my project." />
+  <title>Home | The Sovereign Order</title>
+  <meta
+    name="description"
+    content="Welcome to the Sovereign Order, a fantasy-themed website project featuring knightly services, guild records, and accessible web design."
+  />
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <!-- Skip link helps keyboard users jump past nav -->
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header">
-    <div class="container">
-      <p class="site-brand">My Brand</p>
+    <div class="container header-flex">
+      <div class="branding">
+        <img
+          src="images/Sovereign_Banner.png"
+          alt="Fantasy heraldic banner featuring a shield, armored gauntlet, daggers, and flame crest"
+          class="banner-logo"
+        />
+        <div>
+          <p class="site-title">The Sovereign Order</p>
+          <p class="site-subtitle">Knightly services, sworn duty, and guild records</p>
+        </div>
+      </div>
 
       <nav class="site-nav" aria-label="Primary">
         <ul>
           <li><a aria-current="page" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About the Order</a></li>
+          <li><a href="projects.html">Adventuring Services</a></li>
+          <li><a href="resources.html">Guild Resources</a></li>
+          <li><a href="contact.html">Contact the Keep</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main" class="container">
-    <h1>Homepage Heading</h1>
-    <p>
-      This is where I will be putting my introduction
-    </p>
+    <section class="hero card">
+      <h1>Welcome to the Sovereign Order</h1>
+      <p>
+        Beneath this banner stands a company sworn to discipline, steel, and service.
+        The Sovereign Order is presented as a knightly guild where contracts are honored,
+        dangers are met head-on, and records are kept with care.
+      </p>
+      <p>
+        This website was built as a web development project and combines fantasy-inspired
+        design with strong structure, accessibility, responsive layout, and consistent
+        navigation across the site.
+      </p>
+      <p>
+        <a class="button-link" href="projects.html">View the Order’s Services</a>
+      </p>
+    </section>
 
-    <section aria-labelledby="features-title" class="card">
-      <h2 id="features-title">Key Features</h2>
+    <section class="card">
+      <h2>The Banner of the Order</h2>
+      <img
+        src="images/home.jpg"
+        alt="An armored knight standing in a stone hall beneath banners and torchlight"
+      />
+      <p>
+        The Sovereign Order takes its identity from symbols of vigilance, strength,
+        and loyalty. Its heraldry reflects a house prepared for conflict, duty, and defense.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>What You Will Find Here</h2>
       <ul>
-        <li>Feature one (clear, descriptive)</li>
-        <li>Feature two</li>
-        <li>Feature three</li>
+        <li>A themed homepage with a consistent fantasy heraldry design</li>
+        <li>Information about the Order and its sworn purpose</li>
+        <li>A service ledger showing the contracts and duties accepted</li>
+        <li>Guild resources with useful external links</li>
+        <li>A working contact form for sending messages to the keep</li>
       </ul>
     </section>
 
-    <section aria-labelledby="image-title" class="card">
-      <h2 id="image-title">Image Example</h2>
-      <img src="images/example.jpg" alt="Image relating to subject." />
+    <section class="card">
+      <h2>Why This Site Was Built</h2>
+      <p>
+        This project was created to demonstrate HTML, CSS, and JavaScript in a complete
+        multi-page website. It also applies core web design principles such as semantic
+        page structure, mobile-friendly layout, readable navigation, alternate text for
+        images, and basic search engine optimization.
+      </p>
+      <p>
+        Rather than using a generic layout, the site was designed around a custom fantasy
+        concept to give it a distinct identity and a more engaging visual style.
+      </p>
     </section>
 
-    <section aria-labelledby="cta-title" class="card">
-      <h2 id="cta-title">Call to Action</h2>
-      <p>Press the button!</p>
-      <button id="helloBtn" type="button">Come on you know you want to!</button>
-      <p id="status" class="status" role="status" aria-live="polite"></p>
+    <section class="card">
+      <h2>Call to Service</h2>
+      <p>
+        Whether you seek knowledge of the Order, wish to review its services, or send word
+        to the keep, the pages of this site are open to you.
+      </p>
+      <p>
+        <a class="button-link" href="contact.html">Send Word to the Keep</a>
+      </p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Cauy Whaley. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> The Sovereign Order. All rights reserved.</p>
     </div>
   </footer>
 
